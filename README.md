@@ -10,7 +10,7 @@ _Moved from [gophergala/golang-sizeof.tips](https://github.com/gophergala/golang
 
 Web tool for interactive playing with Golang struct sizes.
 
-Try online version ~~[here](http://golang-sizeof.tips/).~~
+Try online version [here](http://sizeof.minami14.com/).
 
 ## Aim
 Provide comfortable tool to see how fields in struct are aligned,
@@ -18,15 +18,14 @@ to compare different structs and as the result - to understand
 and remember alignment rules.
 
 ## Installing
-To install correct versions of dependencies
-[Goop dependency manager](https://github.com/nitrous-io/goop) should be used.
+~~To install correct versions of dependencies
+[Goop dependency manager](https://github.com/nitrous-io/goop) should be used.~~
 ```bash
-go get github.com/gophergala/golang-sizeof.tips
-cd github.com/gophergala/golang-sizeof.tips
-goop install
-goop go build -o ./server
+go get github.com/minami14/golang-sizeof.tips
+cd github.com/minami14/golang-sizeof.tips
+go build -o server .
 ```
-You may also install via simple `go get` by your own risk.
+~~You may also install via simple `go get` by your own risk.~~
 
 
 ## Usage
