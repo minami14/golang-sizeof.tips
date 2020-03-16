@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gophergala/golang-sizeof.tips/internal/log"
+	"github.com/minami14/golang-sizeof.tips/internal/log"
 
 	daemon "github.com/tyranron/daemonigo"
 )

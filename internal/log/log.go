@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gophergala/golang-sizeof.tips/internal/log/filelog"
+	"github.com/minami14/golang-sizeof.tips/internal/log/filelog"
 
-	l4g "code.google.com/p/log4go"
+	l4g "github.com/alecthomas/log4go"
 )
 
 // Relative path (from application root) to file
